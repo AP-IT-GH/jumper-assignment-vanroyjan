@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1640368271",
+        "python_version": "3.8.12 (default, Oct 12 2021, 03:01:40) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Jean\\anaconda3\\envs\\mlagents\\Scripts\\mlagents-learn Mover.yaml --run-id m01",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.10.0+cpu",
+        "numpy_version": "1.21.4",
+        "end_time_seconds": "1640368278"
+    },
+    "total": 7.1834263,
+    "count": 1,
+    "self": 0.005791999999999575,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0731288000000001,
+            "count": 1,
+            "self": 0.0731288000000001
+        },
+        "TrainerController.start_learning": {
+            "total": 7.1045055,
+            "count": 1,
+            "self": 0.00011329999999976081,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.104379000000001,
+                    "count": 1,
+                    "self": 7.104379000000001
+                },
+                "TrainerController._save_models": {
+                    "total": 1.3199999999713441e-05,
+                    "count": 1,
+                    "self": 1.3199999999713441e-05
+                }
+            }
+        }
+    }
+}
